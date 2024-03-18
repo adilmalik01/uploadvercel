@@ -1,0 +1,59 @@
+.banner {
+    width: 100%;
+    height: 60vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+}
+
+.profileBanner {
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+
+}
+
+.profileBanner img {
+    width: 160px;
+    border-radius: 50%;
+    height: 160px;
+    margin-bottom: 10px;
+}
+
+.btn-div button {
+    margin: 5px;
+    background-color: rgb(10, 198, 10);
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+    color: white !important;
+    transition: all 0.4s;
+    border: 1px solid transparent;
+}
+
+.btn-div :nth-child(2) {
+    color: white !important;
+    background-color: rgb(245, 37, 37) !important;
+}
+
+.btn-div :nth-last-child(2):hover{
+    background-color: white;
+    border: 1px solid  rgb(10, 198, 10);
+    color: rgb(10, 198, 10) !important;
+}
+.btn-div :nth-last-child(1):hover{
+    background-color: white !important;
+    border: 1px solid  rgb(245, 37, 37) !important;
+    color: rgb(245, 37, 37) !important;
+}
+
